@@ -25,6 +25,7 @@ body {
   place-content: center;
   margin: 0 auto;
   font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
 }
 
 header img {
@@ -32,26 +33,44 @@ header img {
 }
 
 main {
-  padding: 3em 2rem;
+  padding: 3rem 2rem;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 2.5rem;
+}
+main h1, main p {
+  color: hsl(234, 29%, 20%);
+}
+main h1, main label, main button {
+  font-weight: 700;
 }
 main .list-item {
   display: flex;
   gap: 1em;
-  align-items: center;
+  align-items: start;
 }
 main form {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  font-family: "Roboto", sans-serif;
 }
 main form fieldset {
   display: flex;
   flex-direction: column;
   gap: 1rem;
   border: none;
+  margin-top: 2rem;
+}
+main form fieldset label {
+  font-size: 1.2rem;
+}
+main form button {
+  background-color: hsl(234, 29%, 20%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  padding: 2rem 3rem;
+  border-radius: 0.8rem;
 }
 
 /*# sourceMappingURL=style.css.map */
