@@ -78,6 +78,13 @@ main {
       label {
         font-size: 1.2rem;
       }
+
+      input {
+        border: 1px solid $grey;
+        padding: 2rem 3rem;
+        border-radius: .8rem;
+        font-size: 1.6rem;
+      }
     }
 
     button {
