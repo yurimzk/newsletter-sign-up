@@ -167,6 +167,9 @@ main form button:hover {
     border-radius: 1rem;
     padding: 2rem;
   }
+  #app.hidden {
+    display: none;
+  }
   header {
     flex-basis: 60%;
   }
