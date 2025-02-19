@@ -94,5 +94,10 @@ main {
       padding: 2rem 3rem;
       border-radius: .8rem;
     }
+
+    button:hover {
+      cursor: pointer;
+      background-color: $blue-700;
+    }
   }
 }

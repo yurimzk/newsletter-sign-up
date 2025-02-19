@@ -78,5 +78,9 @@ main form button {
   padding: 2rem 3rem;
   border-radius: 0.8rem;
 }
+main form button:hover {
+  cursor: pointer;
+  background-color: hsl(235, 18%, 26%);
+}
 
 /*# sourceMappingURL=style.css.map */
