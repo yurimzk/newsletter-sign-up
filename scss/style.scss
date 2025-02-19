@@ -3,6 +3,7 @@ $blue-700: hsl(235, 18%, 26%);
 $grey: hsl(0, 0%, 58%);
 $white: hsl(0, 0%, 100%);
 $red: hsl(4, 100%, 67%);
+$red-input: hsla(4, 100%, 67%, 0.216);
 
 @font-face {
   font-family: 'Roboto';
@@ -91,7 +92,7 @@ main {
         }
 
         .error-message {
-          display: block;
+          color: $red;
         }
       }
 
@@ -100,6 +101,12 @@ main {
         padding: 2rem 3rem;
         border-radius: .8rem;
         font-size: 1.6rem;
+      }
+
+      .error-input {
+        background-color: $red-input;
+        border: 1px solid $red;
+        color: $red;
       }
     }
 
@@ -154,7 +161,6 @@ main {
       color: $blue-800;
       line-height: 150%;
     }
-
   }
 
   button {
