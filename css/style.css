@@ -63,8 +63,16 @@ main form fieldset {
   border: none;
   margin-top: 2rem;
 }
-main form fieldset label {
+main form fieldset .email-label {
+  display: flex;
+  justify-content: space-between;
+}
+main form fieldset .email-label label, main form fieldset .email-label span {
   font-size: 1.2rem;
+}
+main form fieldset .email-label span {
+  color: hsl(4, 100%, 67%);
+  font-weight: 700;
 }
 main form fieldset input {
   border: 1px solid hsl(0, 0%, 58%);

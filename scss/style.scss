@@ -76,8 +76,18 @@ main {
       border: none;
       margin-top: 2rem;
 
-      label {
-        font-size: 1.2rem;
+      .email-label{
+        display: flex;
+        justify-content: space-between;
+
+        label, span {
+          font-size: 1.2rem;
+        }
+
+        span {
+          color: $red;
+          font-weight: 700;
+        }
       }
 
       input {
