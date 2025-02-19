@@ -128,5 +128,9 @@ main form button:hover {
   margin: 0 2rem;
   transform: translateY(224%);
 }
+#success-page button:hover {
+  cursor: pointer;
+  background-color: hsl(235, 18%, 26%);
+}
 
 /*# sourceMappingURL=style.css.map */
