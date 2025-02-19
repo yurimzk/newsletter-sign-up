@@ -26,6 +26,7 @@ body {
   margin: 0 auto;
   font-size: 1.6rem;
   font-family: "Roboto", sans-serif;
+  position: relative;
 }
 
 header img {
@@ -83,7 +84,7 @@ main form button:hover {
   background-color: hsl(235, 18%, 26%);
 }
 
-#app {
+.hidden#success-page {
   display: none;
 }
 
@@ -91,6 +92,8 @@ main form button:hover {
   display: grid;
   place-content: center;
   height: 100vh;
+  background-color: hsl(0, 0%, 100%);
+  position: absolute;
 }
 #success-page #success-info {
   display: flex;
@@ -123,7 +126,7 @@ main form button:hover {
   padding: 2rem 3rem;
   border-radius: 0.8rem;
   margin: 0 2rem;
-  transform: translateY(240%);
+  transform: translateY(224%);
 }
 
 /*# sourceMappingURL=style.css.map */
