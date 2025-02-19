@@ -33,10 +33,10 @@ header img {
 }
 
 main {
-  padding: 3rem 2rem;
+  padding: 3.2rem 2rem;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 2.4rem;
 }
 main h1, main p {
   color: hsl(234, 29%, 20%);
@@ -52,7 +52,7 @@ main .list-item {
 main form {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 2.4rem;
   font-family: "Roboto", sans-serif;
 }
 main form fieldset {
