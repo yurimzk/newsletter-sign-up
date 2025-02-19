@@ -73,6 +73,10 @@ main form fieldset .email-label label, main form fieldset .email-label span {
 main form fieldset .email-label span {
   color: hsl(4, 100%, 67%);
   font-weight: 700;
+  display: none;
+}
+main form fieldset .email-label .error-message {
+  display: block;
 }
 main form fieldset input {
   border: 1px solid hsl(0, 0%, 58%);

@@ -87,6 +87,11 @@ main {
         span {
           color: $red;
           font-weight: 700;
+          display: none;
+        }
+
+        .error-message {
+          display: block;
         }
       }
 
