@@ -51,7 +51,12 @@
         </div>
         <form action="" id="form">
           <fieldset>
-            <label for="email">Email address</label>
+            <div class="email-label">
+              <label for="email">Email address</label>
+              <span aria-live="polite" id="email-error"
+                >Valid email required</span
+              >
+            </div>
             <input
               type="text"
               id="email"
