@@ -181,6 +181,22 @@ main form button:hover {
   main h1 {
     font-size: 4.8rem;
   }
+  #success-page {
+    margin: 0 48rem;
+    padding: 2rem 3rem;
+    border-radius: 2rem;
+    height: 120%;
+    height: auto;
+  }
+  #success-page #success-info {
+    padding-bottom: 6rem;
+  }
+  #success-page #success-info h2 {
+    font-size: 4.8rem;
+  }
+  #success-page button {
+    transform: translateY(-50%);
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
