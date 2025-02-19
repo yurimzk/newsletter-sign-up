@@ -15,39 +15,53 @@
     <title>Newsletter sign-up form</title>
   </head>
   <body>
-    <header>
-      <img
-        src="./assets/images/illustration-sign-up-mobile.svg"
-        alt="Sign-up illustration"
-      />
-    </header>
-    <main>
-      <h1>Stay updated!</h1>
-      <p>Join 60,000+ product managers receiving monthly updates on:</p>
-      <div class="list-item">
-        <img src="./assets/images/icon-list.svg" alt="List icon" />
-        <p>Product discovery and building what matters</p>
+    <div id="success-page">
+      <div id="success-info">
+        <img src="./assets/images/icon-success.svg" alt="Success icon" />
+        <h2>Thanks for subscribing!</h2>
+        <p>
+          A confirmation email has been sent to
+          <span>ash@loremcompany.com</span>. Please open it and click the button
+          inside to confirm your subscription.
+        </p>
       </div>
-      <div class="list-item">
-        <img src="./assets/images/icon-list.svg" alt="List icon" />
-        <p>Measuring to ensure updates are a success</p>
-      </div>
-      <div class="list-item">
-        <img src="./assets/images/icon-list.svg" alt="List icon" />
-        <p>And much more!</p>
-      </div>
-      <form action="">
-        <fieldset>
-          <label for="email">Email address</label>
-          <input
-            type="text"
-            id="email"
-            name="email"
-            placeholder="email@company.com"
-          />
-        </fieldset>
-        <button>Subscribe to monthly newsletter</button>
-      </form>
-    </main>
+      <button>Dismiss message</button>
+    </div>
+    <div id="app">
+      <header>
+        <img
+          src="./assets/images/illustration-sign-up-mobile.svg"
+          alt="Sign-up illustration"
+        />
+      </header>
+      <main>
+        <h1>Stay updated!</h1>
+        <p>Join 60,000+ product managers receiving monthly updates on:</p>
+        <div class="list-item">
+          <img src="./assets/images/icon-list.svg" alt="List icon" />
+          <p>Product discovery and building what matters</p>
+        </div>
+        <div class="list-item">
+          <img src="./assets/images/icon-list.svg" alt="List icon" />
+          <p>Measuring to ensure updates are a success</p>
+        </div>
+        <div class="list-item">
+          <img src="./assets/images/icon-list.svg" alt="List icon" />
+          <p>And much more!</p>
+        </div>
+        <form action="" id="form">
+          <fieldset>
+            <label for="email">Email address</label>
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="email@company.com"
+            />
+          </fieldset>
+          <button>Subscribe to monthly newsletter</button>
+        </form>
+      </main>
+    </div>
   </body>
 </html>

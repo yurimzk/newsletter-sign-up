@@ -83,4 +83,47 @@ main form button:hover {
   background-color: hsl(235, 18%, 26%);
 }
 
+#app {
+  display: none;
+}
+
+#success-page {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+#success-page #success-info {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  margin: 3.2rem 2rem;
+  padding-bottom: 8rem;
+}
+#success-page #success-info img {
+  width: 60px;
+  height: 60px;
+}
+#success-page #success-info h2, #success-page #success-info p span {
+  color: hsl(234, 29%, 20%);
+  font-weight: 700;
+}
+#success-page #success-info h2 {
+  font-size: 3.2rem;
+}
+#success-page #success-info p {
+  color: hsl(234, 29%, 20%);
+  line-height: 150%;
+}
+#success-page button {
+  background-color: hsl(234, 29%, 20%);
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  letter-spacing: 0.05rem;
+  border: none;
+  padding: 2rem 3rem;
+  border-radius: 0.8rem;
+  margin: 0 2rem;
+  transform: translateY(240%);
+}
+
 /*# sourceMappingURL=style.css.map */

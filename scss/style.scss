@@ -101,3 +101,52 @@ main {
     }
   }
 }
+
+#app {
+  display: none;
+}
+
+#success-page {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+
+  #success-info {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+    margin: 3.2rem 2rem;
+    padding-bottom: 8rem;
+
+    img {
+      width: 60px;
+      height: 60px;
+    }
+
+    h2, p span {
+      color: $blue-800;
+      font-weight: 700;
+    }
+
+    h2 {
+      font-size: 3.2rem;
+    }
+
+    p {
+      color: $blue-800;
+      line-height: 150%;
+    }
+
+  }
+  button {
+    background-color: $blue-800;
+    color: $white;
+    font-weight: 700;
+    letter-spacing: .05rem;
+    border: none;
+    padding: 2rem 3rem;
+    border-radius: .8rem;
+    margin: 0 2rem;
+    transform: translateY(240%);
+  }
+}
